@@ -1,0 +1,169 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Fascisti</title>
+
+        <link href="https://fonts.cdnfonts.com/css/pricedown" rel="stylesheet">
+
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/pricedown');
+            input{
+                padding:5px;
+            }
+            .titolo{
+                font-family: 'Pricedown Bl', sans-serif;
+                text-align:center;
+                color:rgb(0, 0, 0);
+                font-size:60px;
+                padding: 10%;
+                margin-top:0px;
+                margin-bottom:0px;
+                background-image: url(IMG-20220322-WA0000.jpg);
+                background-size:100% 100%;
+            }
+            .create-account-button{
+                margin-left:43px;
+            }
+            body{
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            input{
+                margin-bottom:10px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+
+            }
+            p{
+                text-align:center;
+            }
+            .bigDiv{
+                display:grid;
+                grid-template-columns: 1fr 5fr 1fr;
+            }
+            .mainDiv{
+                background-image: url(800px-Cannabis_01_bgiu.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-attachment: fixed;
+            }
+            .styleDiv{
+                background-image: url(800px-Cannabis_01_bgiu.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-attachment: fixed;
+            }
+            .loginDiv{
+                height:700px;
+            }
+            .loginWindowGrid{
+                display:grid;
+                grid-template-columns:1fr 300px 1fr;
+                margin-top:100px;
+            }
+            .loginWindow{
+                border-style:ridge;
+                border-width:1px;
+                box-shadow: 2px 2px 5px;
+                background-color:rgb(167, 167, 167);
+                border-radius:20px;
+            }
+            .menu{
+                height: 57px;
+                float:center;
+                background-color:rgb(34, 78, 30);
+            }
+            .home:hover{
+                color:black;
+                background-color:rgb(90, 121, 88);
+            }
+            .home{
+                display:inline-block;
+                margin-top:0px;
+                margin-bottom:0px;
+                padding:17px;
+                background-color:rgb(34, 78, 30);
+                border:none;
+                font-size: 20px;
+                color:white;
+            }
+            .login:hover{
+                color:black;
+                background-color:rgb(90, 121, 88);
+            }
+            .login{
+                float:right;
+                display:inline-block;
+                margin-top:0px;
+                margin-bottom:0px;
+                padding:17px;
+                background-color:rgb(34, 78, 30);
+                color:white;
+                border:none;
+                font-size: 20px;
+            }
+            .stileSfondo{
+                background-color:rgba(211, 211, 211, 0.664);
+            }
+            .bottomSite{
+                background-color:rgb(65, 65, 65);
+                height:300px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bigDiv">
+            <div class="styleDiv">
+            </div>
+    
+            <div class="mainDiv">
+                <div class="stileSfondo">
+                    <p class="titolo">Who is Lapo?</p>
+                    <div class="loginDiv">
+                        <div class="menu">
+                            <button onclick="location.href='login.html'" class="login">
+                                Login
+                            </button>
+                            <button onclick="location.href='logup.html'" class="login">
+                                Sign up
+                            </button>
+                            <button onclick="location.href='index.html'" class="home">
+                                Home
+                            </button>
+                        </div>
+                        <div class="loginWindowGrid">
+    
+                            <div></div>
+    
+                            <div class="loginWindow">
+                                <p>Create an account now!</p>
+                                <input type="text" placeholder="Username">
+                                <input type="text" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <input type="password" placeholder="Confirm Password">
+                                <button class="create-account-button" onclick="location.href='QR.html'">Create account</button>
+                                <p>You have an account?</p>
+                                <p>
+                                    <a href="login.html">Login</a>
+                                </p>
+                            </div>
+    
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="styleDiv">
+    
+            </div>
+        </div>
+        <div class="bottomSite">
+
+        </div>
+    </body>
+</html>
